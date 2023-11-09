@@ -1,7 +1,6 @@
 <script>
   import ChatBot from "./components/chatbot.svelte";
   import ImageGen from "./components/imagegen.svelte";
-  import Rect from "./components/rect.svelte";
   let chatbot = true;
 </script>
 
@@ -26,8 +25,8 @@
     <div class="navbar-end" />
   </div>
 </div>
-<!--Body-->
 
+<!--Body-->
 <div class="grid z-1 h-screen place-items-center">
   <div class="card highlight w-1/2 bg-base-100 shadow-xl">
     <div class="card-body items-center text-center">
